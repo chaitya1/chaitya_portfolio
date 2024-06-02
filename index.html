@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaitya Portfolio</title>
+    <link rel="icon" type="image/png" href="./assets/c.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Chaitya Lodaya</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Chaitya Lodaya</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Chaitya Lodaya profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Chaitya Lodaya</h1>
+        <p class="section__text__p2">Project Manager and Scrum Master</p>
+
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+
+
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/chaityalodaya/'"
+          />
+         
+          
+        </div>
+       
+
+        <div id="skills-container">
+          <p>Technical/non technical that I'm familiar with!</p>
+      
+          <table class="tech-table"> 
+              <tr>
+                  <td>Power BI</td>
+                  <td>MS Office</td>
+                  <td>TOSCA</td>
+            
+              </tr>
+              <tr>
+                  <td>MS Project</td>
+                  <td>Google Suite</td>
+                  <td>Kanban</td>
+              </tr>
+             
+              <tr>
+                  <td>Asana/Jira</td>
+                  <td>Confluence</td>
+                  <td>SDLC</td>
+              </tr>
+              <tr>
+                  <td>Program Management</td>
+                  <td>Automation Testing</td>
+                  <td>Project Management</td>
+              </tr>
+          </table>
+      </div>
+      
+
+
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Project Manager and Scrum Master at<br><b>NavisionTech Inc.</b></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors of Engineering<br /> Masters in ECE - University of Florida</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Chaitya is a Project Manager / Scrum Master at Navisiontech, Inc., where she lead and coordinate complex projects involving Dynamics 365 ERP implementation software development, data analysis, and user experience design by using agile methodologies and Jira tools to plan, execute, and monitor project progress, deliverables, and quality, ensuring that the project goals are met within the budget and timeline constraints. She also communicate and collaborate effectively with cross-functional teams, stakeholders, and clients, facilitating problem-solving and decision-making.
+              
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+
+
+    <!--  Experience -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+
+
+        <div class="about-containers">
+
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">NavisionTech Inc</h2>
+            
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+               
+                  <h3>Project Manager and Scrum Master </h3>
+                  <small>Present</small>
+                    
+• Led Scrum practices - Sprint Planning, and Retrospective meetings for teams of up to 12 members, increasing productivity by 30%.<br>
+• Managed Jira boards for 6+ concurrent projects, creating knowledge base articles and streamlining workflows.<br>
+• Established statement of work (SOW), ensuring effective communication with leaders, vendors, stakeholders & cross-functional teams.<br>
+• Conducted 20+ grooming sessions to clarify criteria and scope, facilitating a shared understanding of project deliverables.<br>
+           
+                 
+                 
+                  </div>
+              </article>
+
+            </div>
+          </div>
+
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">UF Innovate, University of Florida</h2>
+            <div class="article-container">
+              <article>
+                
+                <div>
+                  <h3>Project Manager</h3>
+                  <small>Mar 2022 - Jan 2023</small>
+                  • Directed project management activities - detailed reporting, strategic planning, and estimation, resulting in a 30% reduction in delays.<br>
+                  • Defined and monitored a project plan with defined inter-dependencies and defining project roles for 27+ members.<br>
+                  • Oversaw a team of 35+ by preparing Gantt charts for the project to achieve timely and accurate delivery<br>
+                   
+                  </div>
+              </article>
+
+            </div>
+          </div>
+
+
+        
+
+   
+
+
+
+        </div>
+
+        <!-------------->
+ 
+      <div class="about-containers">
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">University of Florida</h2>
+          <div class="article-container">
+            <article>
+             
+              <div>
+                <h3>Supervisor</h3>
+                <small>Aug 2021  - Feb 2022</small>
+      
+                • Demonstrated leadership and integrity while assisting with scheduling and inventory control for a team of 8.<br/>
+                • Ensured customer satisfaction in fast-paced, high-volume operations by maintaining high standards of service.<br/>
+                • Initiated efficiency improvements, such as optimizing workflow processes and identifying cost-saving opportunities, resulting in a 15%
+                reduction in operational costs.<br/>
+                
+                </div>
+            </article>
+
+          </div>
+        </div>
+   
+
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Accenture Solutions Private Limited</h2>
+            <div class="article-container">
+              <article>
+               
+                <div>
+                  <h3>QA Analyst</h3>
+                 <small>Nov 2017 -  Jun 2021</small>
+              
+                 • Delivered 20+ projects from Test Planning - Test Closure and Project Planning - Project Closure/Execution.<br>
+                 • Provided defect resolutions in JIRA and HP-ALM reducing system defects and reactive support cases, saving 2 hours individual per
+                 day. Averaged 4+ retests/day optimizing defect management.<br>
+                 • Coordinated and guided 5+ cross-domain project managers, test managers, and developers to achieve requirements at once.<br>
+                 • Raised productivity by 5% by partnering with developers to automate laborious procedures.<br>
+                 • Optimized the regression suite using TOSCA automation (2500+ testcases).Also evaluated files, records, business requirements, user
+                 stories, and high/low-level test cases to get business expertise. Wrote 150+ test cases/day.<br>
+                  </div>
+              </article>
+
+            </div>
+          </div>
+
+
+      
+
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div>
+            <h2 class="experience-sub-title project-title">Developing Python Based - Email Filtering with ML Algorithm</h2>
+            <p>• Leveraged Jira for risk assessments and risk management, reducing project risks<br>
+              • Utilized Xmind and MindMeister for cross-functional collaboration, while developing project plans, documentation</p>
+          </div>
+          <br>
+           
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Drone Tech </h2>
+            <p>• Led a team of 6, excelling in resource allocation, cost optimization, conflict resolution, and budget management<br/>
+              • Demonstrated strong negotiation skills in successfully resolving project issues and conflicts</p>
+            <br>
+           
+          </div>
+        
+        </div>
+
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+
+<!--                                -->
+
+    <section id="certification">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Certifications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+           
+            <div>
+              <ul>
+              Project Management Principles and Practices, University of California, Irvine (June 2022)<br>
+               Scrum Foundations Professional Certified (August 2020)<br>
+                Certified Six Sigma Yellow Belt (February 2022)<br>
+                Google Project Management: Professional Certificate (Ongoing)<br>
+            </ul>
+              
+           </div>
+          <br>
+           
+          </div>
+
+
+        
+        </div>
+
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+
+    </section>
+
+
+
+
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div style="align-items: center;text-align: center;">
+        <p>
+          My inbox is always open. Whether you have a question or just want to say hello, I'll do my best to get back to you!
+        </p>
+      </div>
+      
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+         
+          <br>
+          <p><a href="mailto:akashkumaruf@gmail.com">chaityauf@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/chaityalodaya/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
